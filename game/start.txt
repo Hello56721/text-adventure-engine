@@ -1,6 +1,6 @@
 type=NORMAL;
 text=Hello, jolly fellow! Welcome to this adventure game! I'm Shiva Jay, your guide. Would you like some tea?;
 options=[
-    Yes, please!:sjp.txt,
+    Yes, please!:sjp.txt|
     No thanks.:ok.txt
 ];
