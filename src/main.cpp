@@ -212,7 +212,7 @@ int main()
                     current_passage = load_passage(next_passage.link);
                     is_player_stuck = false;
                 }
-                catch (const std::out_of_range &e)
+                catch (const std::out_of_range&)
                 {
                     std::cout << "Invalid option bozo :joy_cat:";
                 }
