@@ -1,2 +1,2 @@
-type=END
-text=Okay, that's fine. How about some milk?
+type=END;
+text=Okay, that's fine. How about some milk?;

@@ -1,2 +1,2 @@
-type=END
-text=Oops! You got poisoned by Shiva Jay!
+type=END;
+text=Oops! You got poisoned by Shiva Jay!;
