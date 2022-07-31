@@ -14,5 +14,8 @@
         "*.vcxproj*": true,
         "*.sln": true,
         "CMakeCache.txt": true
+    },
+    "files.associations": {
+        "xstring": "cpp"
     }
 }
