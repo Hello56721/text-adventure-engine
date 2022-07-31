@@ -130,10 +130,12 @@ namespace
     
     passage_t load_passage(std::string_view p_path)
     {
-        auto file{std::ifstream(p_path.data())};
+        auto path = "game/"s + p_path.data();
+        
+        auto file{std::ifstream(path.data())};
         if (!file.is_open())
         {
-            std::cerr << "[ERROR]: Failed to open " << p_path << std::endl;
+            std::cerr << "[ERROR]: Failed to open " << path << std::endl;
             return {};
         }
         
@@ -182,6 +184,5 @@ namespace
 
 int main()
 {
-    std::cout << "Hello, world!\n";
     return 0;
 }
