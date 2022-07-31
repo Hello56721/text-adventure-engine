@@ -465,3 +465,6 @@ _deps
 *.vcxproj
 *.vcxproj.filters
 *.sln
+
+.vscode/*
+!.vscode/settings.json
